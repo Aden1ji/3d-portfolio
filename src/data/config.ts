@@ -1,45 +1,40 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Ayomikun Adeniji | Softwarx`e Developer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Ayomikun Adeniji, a software developer focused on building impactful mobile and web applications. From ClosetLink, a digital wardrobe marketplace, to Triage Radio, an applied AI hazard reporting platform, I design scalable systems that solve real problems with clean architecture and thoughtful user experience.",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+        "Ayomikun Adeniji is a software developer building mobile apps, backend systems, and AI powered platforms.",
   },
   keywords: [
-    "Naresh",
-    "portfolio",
-    "full-stack developer",
-    "creative technologist",
-    "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
-    "React",
+    "Ayomikun Adeniji",
+    "Software Developer",
+    "Portfolio",
+    "React Native",
     "Next.js",
-    "Spline",
-    "Framer Motion",
+    "TypeScript",
+    "Node.js",
+    "Supabase",
+    "Machine Learning",
+    "Applied AI",
+    "ClosetLink",
+    "Triage Radio",
+    "Mobile Development",
+    "Backend Engineering",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  author: "Ayomikun Adeniji",
+  email: "ayomikunadeniji63@gmail.com",
+  site: "https://yourdomain.com",
 
-  // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
+  githubUsername: "Aden1ji",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
+
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    linkedin: "https://www.linkedin.com/in/ayomikun-adeniji/",
+    github: "https://github.com/Aden1ji",
   },
 };
+
 export { config };
